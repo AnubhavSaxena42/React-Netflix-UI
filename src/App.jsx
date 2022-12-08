@@ -1,10 +1,11 @@
 import "./App.scss";
 import HomePage from "./pages/HomePage/HomePage";
+import WatchPage from "./pages/WatchPage/WatchPage";
 
 const App = () => {
   return (
     <div>
-      <HomePage />
+      <WatchPage />
     </div>
   );
 };
