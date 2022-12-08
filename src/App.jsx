@@ -1,5 +1,12 @@
+import "./App.scss";
+import HomePage from "./pages/HomePage/HomePage";
+
 const App = () => {
-  return <div>Hello world!</div>;
+  return (
+    <div>
+      <HomePage />
+    </div>
+  );
 };
 
 export default App;
